@@ -31,7 +31,7 @@ public class DelayCommits {
     private static void startConsumer() throws InterruptedException {
             while (true) {
                 long delay = Long.parseLong((String) props.get("delay.in.ms"));
-                int consumerPollDurationOfSeconds = Integer.parseInt((String) props.get("Pool.Duration"));
+                int consumerPollDurationOfSeconds = Integer.parseInt((String) props.get("Poll.Duration"));
                 long timestampnow = Instant.now().toEpochMilli();
                 ConsumerRecords<String, String> records = consumer.poll(Duration.ofSeconds(consumerPollDurationOfSeconds));
                 for (ConsumerRecord<String, String> record : records) {
