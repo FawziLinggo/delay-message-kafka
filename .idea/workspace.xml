@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DelayCommits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TesTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/consumer.properties" afterDir="false" />
+    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="First Commit gaes">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DelayCommits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DelayCommits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/consumer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/consumer.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ByGoA4ZsIoeLBFzruEYfGpnIRR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657871085273</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit gaes">
+      <created>1657972774023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657972774023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +93,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit gaes" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit gaes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/delay_datafeed_idx$DelayCommits.ic" NAME="DelayCommits Coverage Results" MODIFIED="1657930715139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

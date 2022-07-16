@@ -4,12 +4,9 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.consumer.OffsetAndMetadata;
 import org.apache.kafka.common.TopicPartition;
 
-import java.io.FileInputStream;
 import java.io.FileReader;
 import java.time.Duration;
 import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.util.*;
 
 public class DelayCommits {
@@ -17,8 +14,6 @@ public class DelayCommits {
     private static KafkaConsumer<String, String> consumer;
     private static TopicPartition topicPartition;
     private static Properties props = new Properties();
-
-
 
     public static void main(String[] args) throws Exception {
 
@@ -36,8 +31,9 @@ public class DelayCommits {
     private static void startConsumer() throws InterruptedException {
             while (true) {
                 long delay = Long.parseLong((String) props.get("delay.in.ms"));
+                int consumerPollDurationOfSeconds = Integer.parseInt((String) props.get("Pool.Duration"));
                 long timestampnow = Instant.now().toEpochMilli();
-                ConsumerRecords<String, String> records = consumer.poll(Duration.ofSeconds(100));
+                ConsumerRecords<String, String> records = consumer.poll(Duration.ofSeconds(consumerPollDurationOfSeconds));
                 for (ConsumerRecord<String, String> record : records) {
                     if ((timestampnow - record.timestamp()) >= delay) {
                         System.out.printf("consumed: timestamp %s, key = %s, value = %s, partition id= %s, offset = %s%n",
