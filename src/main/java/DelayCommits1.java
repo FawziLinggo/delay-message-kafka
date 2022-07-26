@@ -1,4 +1,5 @@
 import Props.DelayProperties;
+import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
@@ -12,7 +13,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.*;
 
-public class DelayCommits {
+public class DelayCommits1 {
 
     private static KafkaConsumer<String, String> consumer;
     private static TopicPartition topicPartition;
@@ -45,8 +46,8 @@ public class DelayCommits {
                         consumer.commitAsync();
                     }
                     else {
-                        consumer.seek(topicPartition, record.offset());
-                        break;
+                    consumer.seek(topicPartition, record.offset());
+                    break;
                     }
                 }
             }

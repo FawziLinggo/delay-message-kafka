@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="First Commit gaes">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="Fixing Typo">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DelayCommits1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Props/DelayProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DelayCommits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DelayCommits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/consumer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/consumer.properties" afterDir="false" />
     </list>
@@ -42,9 +45,21 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.DelayCommits">
     <configuration name="DelayCommits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DelayCommits" />
+      <module name="delay-datafeed-idx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DelayCommits1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DelayCommits1" />
       <module name="delay-datafeed-idx" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +75,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DelayCommits" />
+        <item itemvalue="Application.DelayCommits1" />
         <item itemvalue="Application.TesTime" />
       </list>
     </recent_temporary>
@@ -80,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657972774023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add README.md">
+      <created>1657974233279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657974233279</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixing Typo">
+      <created>1657974321046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657974321046</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,7 +126,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit gaes" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit gaes" />
+    <MESSAGE value="add README.md" />
+    <MESSAGE value="Fixing Typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing Typo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/delay_datafeed_idx$DelayCommits.ic" NAME="DelayCommits Coverage Results" MODIFIED="1657930715139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
