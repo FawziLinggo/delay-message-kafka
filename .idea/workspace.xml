@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="Fixing Typo">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DelayCommits1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Props/DelayProperties.java" afterDir="false" />
+    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="Add 2 user in delay">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConncetPsql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DelayPostgre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DelayCommits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DelayCommits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/consumer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/consumer.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/fawzi/Belajar/Java /delay"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DelayCommits">
+  <component name="RunManager" selected="Application.DelayPostgre">
+    <configuration name="ConncetPsql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConncetPsql" />
+      <module name="delay-datafeed-idx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DelayCommits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DelayCommits" />
       <module name="delay-datafeed-idx" />
@@ -65,6 +73,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DelayPostgre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DelayPostgre" />
+      <module name="delay-datafeed-idx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TesTime" />
       <module name="delay-datafeed-idx" />
@@ -74,6 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DelayPostgre" />
+        <item itemvalue="Application.ConncetPsql" />
         <item itemvalue="Application.DelayCommits" />
         <item itemvalue="Application.DelayCommits1" />
         <item itemvalue="Application.TesTime" />
@@ -110,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657974321046</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add 2 user in delay">
+      <created>1658808109498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658808109498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +152,8 @@
     <MESSAGE value="First Commit gaes" />
     <MESSAGE value="add README.md" />
     <MESSAGE value="Fixing Typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Typo" />
+    <MESSAGE value="Add 2 user in delay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 2 user in delay" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/delay_datafeed_idx$DelayCommits.ic" NAME="DelayCommits Coverage Results" MODIFIED="1657930715139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
