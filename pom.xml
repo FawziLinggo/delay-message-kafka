@@ -17,14 +17,14 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <id>kafka-file-DelayCommits</id>
+                        <id>kafka-file-service.DelayCommits</id>
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>DelayCommits</mainClass>
+                                    <mainClass>service.DelayCommits</mainClass>
                                 </manifest>
                             </archive>
-                            <finalName>kafka-file-DelayCommits</finalName>
+                            <finalName>kafka-file-service.DelayCommits</finalName>
                         </configuration>
                         <phase>package</phase>
                         <goals>
@@ -32,14 +32,14 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>kafka-file-DelayCommits1</id>
+                        <id>kafka-file-service.DelayCommits1</id>
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>DelayCommits1</mainClass>
+                                    <mainClass>service.DelayCommits1</mainClass>
                                 </manifest>
                             </archive>
-                            <finalName>kafka-file-DelayCommits1</finalName>
+                            <finalName>kafka-file-service.DelayCommits1</finalName>
                         </configuration>
                         <phase>package</phase>
                         <goals>
