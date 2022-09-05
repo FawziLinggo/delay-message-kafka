@@ -55,12 +55,7 @@ public class DelayDocker {
                             record.timestamp(), record.key(), record.value(), record.partition(), record.offset());
                     consumer.commitAsync();
                 } else {
-//                        for (int i = 0; i < number_of_partitions; i++) {
-//                            topicPartition = new TopicPartition(TOPIC_NAME, i);
-//                            consumer.seek(topicPartition, record.offset());
-//                        }
                     consumer.seek(topicPartition, record.offset());
-                    break;
                 }
             }
         }

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="change package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/docker/ProducerTes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/consumer-dcoker.properties" afterDir="false" />
+    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="many partitions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/docker/DelayDocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/docker/DelayDocker.java" afterDir="false" />
     </list>
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661997946566</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="many partitions">
+      <created>1662373331584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662373331584</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +188,8 @@
     <MESSAGE value="Add 2 user in delay" />
     <MESSAGE value="Postgresql Delay parameter" />
     <MESSAGE value="change package" />
-    <option name="LAST_COMMIT_MESSAGE" value="change package" />
+    <MESSAGE value="many partitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="many partitions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
