@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="add to producer">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="add to make">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/docker/DelayDocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/docker/DelayDocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/docker/ProducerTes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/docker/ProducerTes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/consumer-dcoker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/consumer-dcoker.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,20 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="service.DelayPostgre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="service.DelayPostgre" />
-      <module name="delay-datafeed-idx" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ProducerTes" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.DelayDocker" />
         <item itemvalue="Application.Tes" />
         <item itemvalue="Application.service.ConncetPsql" />
-        <item itemvalue="Application.service.DelayPostgre" />
       </list>
     </recent_temporary>
   </component>
@@ -184,8 +185,25 @@
       <option name="project" value="LOCAL" />
       <updated>1662429688265</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add to file Log">
+      <created>1662431804304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662431804304</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add to make">
+      <created>1662431819200</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662431819200</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -207,7 +225,9 @@
     <MESSAGE value="change package" />
     <MESSAGE value="many partitions" />
     <MESSAGE value="add to producer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add to producer" />
+    <MESSAGE value="add to file Log" />
+    <MESSAGE value="add to make" />
+    <option name="LAST_COMMIT_MESSAGE" value="add to make" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

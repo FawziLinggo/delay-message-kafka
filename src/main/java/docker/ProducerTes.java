@@ -16,9 +16,9 @@ public class ProducerTes {
         String TOPIC_NAME = (String) props.get("topic.producer.name");
 
 
-        String msg1 = "key4";
-        String msg2 = "key2";
-        String msg3 = "key3";
+        String msg1 = "ozi";
+        String msg2 = "ozi";
+        String msg3 = "ozi";
 
         try {
             Producer<String, String> producer = new KafkaProducer<>(props);
