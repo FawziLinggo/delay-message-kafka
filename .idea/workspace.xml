@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="many partitions">
+    <list default="true" id="5129b92e-16b5-4546-a9cc-eee6914b175b" name="Changes" comment="add to producer">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/docker/DelayDocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/docker/DelayDocker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DelayDocker">
+  <component name="RunManager" selected="Application.ProducerTes">
     <configuration name="DelayDocker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="docker.DelayDocker" />
       <module name="delay-message-kafka" />
@@ -101,8 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DelayDocker" />
         <item itemvalue="Application.ProducerTes" />
+        <item itemvalue="Application.DelayDocker" />
         <item itemvalue="Application.Tes" />
         <item itemvalue="Application.service.ConncetPsql" />
         <item itemvalue="Application.service.DelayPostgre" />
@@ -174,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662377345517</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add to producer">
+      <created>1662429688265</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662429688265</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +206,8 @@
     <MESSAGE value="Postgresql Delay parameter" />
     <MESSAGE value="change package" />
     <MESSAGE value="many partitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="many partitions" />
+    <MESSAGE value="add to producer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add to producer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
