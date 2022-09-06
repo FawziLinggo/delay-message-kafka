@@ -5,3 +5,6 @@ tes1:
 tes2:
 	java -cp target/delay-datafeed-idx-1.0-SNAPSHOT-jar-with-dependencies.jar DelayCommits1 --config.consumer.path $(PWD)/src/main/resources/consumer.properties
 
+DelayDocker:
+	java -cp target/delay-datafeed-idx-1.0-SNAPSHOT-jar-with-dependencies.jar docker.DelayDocker --config.delay.path $(PWD)/src/main/resources/consumer-dcoker.properties
+
