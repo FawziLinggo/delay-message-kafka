@@ -22,11 +22,17 @@ public class DelayDocker {
         ParameterTool params = ParameterTool.fromArgs(args);
         Properties props = new DelayProperties(params.getRequired("config.delay.path")).build();
 
-        String TOPIC_NAME = (String) props.get("topic.consumer.name");
-        int number_of_partitions = Integer.parseInt((String) props.get("number.of.partitions"));
+//        String TOPIC_NAME = (String) props.get("topic.consumer.name");
+//        int number_of_partitions = Integer.parseInt((String) props.get("number.of.partitions"));
+//        long delay = Long.parseLong((String) props.get("delay.in.ms"));
+
+        long delay = Long.parseLong(System.getenv("DELAY_MS"));
+        String TOPIC_NAME = System.getenv("TOPIC_CONSUMER_NAME");
+        int number_of_partitions = Integer.parseInt(System.getenv("NUBER_OF_PARTITIONS"));
+
+
 
         // Change Consumer Group to each Product
-        long delay = Long.parseLong((String) props.get("delay.in.ms"));
         String grup_id = "group_of_" + delay /60000 +"_minutes";
         String TOPIC_NAME_PRODUCER = TOPIC_NAME + "_delay_"+delay /60000 +"_minutes";
         props.setProperty(ConsumerConfig.GROUP_ID_CONFIG, grup_id);
